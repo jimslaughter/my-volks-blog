@@ -2,18 +2,21 @@
 import { defineConfig } from 'astro/config';
 import mdx from '@astrojs/mdx';
 
-// https://astro.build/config
+function safeUrl(u) {
+  try {
+    if (!u) return undefined;
+    return new URL(u).toString();   // throws if invalid
+  } catch {
+    return undefined;
+  }
+}
+
+const siteEnv = safeUrl(process.env.SITE);
+const cfEnv   = safeUrl(process.env.CF_PAGES_URL);
+
 export default defineConfig({
-  // The site property should be your final deployed URL
-  site: process.env.SITE || 'SITE = https://e287dd3e.my-volks-blog.pages.dev',
-  // Only use base path for GitHub Pages deployments
-  // For Netlify/Vercel, leave this undefined (no base path)
+  site: siteEnv ?? cfEnv ?? 'http://localhost:4321',
   base: process.env.BASE_PATH || undefined,
   integrations: [mdx()],
-  markdown: {
-    shikiConfig: {
-      theme: 'github-dark',
-      wrap: true,
-    },
-  },
+  markdown: { shikiConfig: { theme: 'github-dark', wrap: true } },
 });
