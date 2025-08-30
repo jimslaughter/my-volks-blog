@@ -17,7 +17,7 @@ export interface SiteConfig {
 }
 
 export const config: SiteConfig = {
-  title: "Jim's Travel 2026",
+  title: "Jim's Travel Blog 2026",
   description: "Come along on our 2026 journey to Spain",
   author: {
     name: "Jim S.",
