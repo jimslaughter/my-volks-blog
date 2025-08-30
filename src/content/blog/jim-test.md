@@ -3,8 +3,8 @@ title: "Test of URL"
 date: "2025-08-30"
 description: "Wondering of a new post would show correct URLs? Probably note. "
 excerpt: "Who knows why the blog posts are without links?"
-categories: ["Design", "Coding", "Web Development"]
-tags: ["URLs", "Site Management", "Mustfix", "Design"]
+categories: ["Design", "Coding", "Web Development", "URLs"]
+tags: ["URLs", "Site Management", "Mustfix", "Design", "URLs"]
 ---
 
 # Understanding Bauhaus: Form, Function, and the Modern Web
