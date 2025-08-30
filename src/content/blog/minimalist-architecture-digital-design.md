@@ -1,5 +1,7 @@
+
+
 ---
-title: "Minimalist Architecture in Digital Design"
+title: "Minimalist Architecture in Modern Digital Design"
 date: "2025-06-04"
 description: "How architectural minimalism shapes modern web interfaces"
 excerpt: "From Mies van der Rohe's 'Less is more' to modern UI design, minimalist architecture continues to influence how we build digital spaces."
@@ -7,7 +9,7 @@ categories: ["Architecture", "Design", "UI/UX"]
 tags: ["Minimalism", "Architecture", "Interface Design", "Modernism"]
 ---
 
-# Minimalist Architecture in Digital Design
+# Minimalist Architecture in Modern Digital Design
 
 Architecture and web design share a fundamental challenge: creating spaces that serve human needs. The minimalist architects of the 20th century discovered principles that translate remarkably well to digital interfaces. Their pursuit of essential form, rejection of ornament, and focus on user experience provide a blueprint for modern digital design.
 
