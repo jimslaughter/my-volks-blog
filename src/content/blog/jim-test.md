@@ -8,3 +8,5 @@ tags: ["URLs", "Site Management", "Mustfix", "Design"]
 ---
 
 # Understanding Bauhaus: Form, Function, and the Modern Web
+
+I did forget to put any content into my post. That could account for nothing showing up.  
