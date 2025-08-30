@@ -28,9 +28,9 @@ export const config: SiteConfig = {
     github: "https://github.com/jimslaughter",
     twitter: "https://twitter.com/jimslaughter",
     linkedin: "https://linkedin.com/in/yourusername",
-    email: "jimslaughter@gmail.com"
+    email: " jimslaughter@gmail.com"
   },
-  siteUrl: "https://my-astro-site-694.pages.dev/"
+  siteUrl: "https://76f4c890.my-volks-blog.pages.dev/"
 };
 
 // Export constants for SEO component
