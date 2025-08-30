@@ -17,20 +17,20 @@ export interface SiteConfig {
 }
 
 export const config: SiteConfig = {
-  title: "Jim's Travel Blog 2026",
+  title: "Jim's Travel 2026",
   description: "Come along on our 2026 journey to Spain",
   author: {
     name: "Jim S.",
     bio: "Getting those last few trips in!",
-    // avatar: "/images/avatar.jpg" // Uncomment and add your avatar image to public/images/
+    avatar: "/images/avatar.jpg" // Uncomment and add your avatar image to public/images/
   },
   social: {
     github: "https://github.com/jimslaughter",
     twitter: "https://twitter.com/jimslaughter",
-    linkedin: "https://linkedin.com/in/jimslaughter",
-    email: " jimslaughter@gmail.com"
+    linkedin: "https://linkedin.com/in/yourusername",
+    email: "jimslaughter@gmail.com"
   },
-  siteUrl: "https://e287dd3e.my-volks-blog.pages.dev"
+  siteUrl: "https://my-astro-site-694.pages.dev/"
 };
 
 // Export constants for SEO component
